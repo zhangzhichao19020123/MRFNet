@@ -1,0 +1,11 @@
+export CAFFE_ROOT=/home/xyin/mfof/flownet2-train
+export PATH=/usr/local/cuda-7.5/bin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/home/xyin/anaconda2/bin:$PATH
+#export PATH=/home/common/MATLAB2014a/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:/usr/local/cuda-7.5/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/home/xyin/anaconda2/lib/python2.7:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/lib:/usr/lib/atlas-base:$LD_LIBRARY_PATH
+#export LD_PRELOAD=/usr/lib/x86_64-linux-gpu/libstdc++.so.6
+export LD_LIBRARY_PATH=/home/xyin/mfof/flownet2-train/build/lib:$LD_LIBRARY_PATH
